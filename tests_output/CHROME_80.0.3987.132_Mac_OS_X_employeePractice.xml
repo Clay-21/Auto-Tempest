@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="12">
+
+  <testsuite name="employeePractice"
+    errors="1" failures="0" hostname="" id="" package="employeePractice" skipped="0"
+    tests="12" time="94.51" timestamp="">
+  
+    <testcase name="Michael Scott ID" classname="employeePractice" time="4.102" assertions="0">
+    </testcase>
+  
+    <testcase name="Dwight Schrute ID" classname="employeePractice" time="3.523" assertions="0">
+    </testcase>
+  
+    <testcase name="Jim Halpert ID" classname="employeePractice" time="3.479" assertions="0">
+    </testcase>
+  
+    <testcase name="Pam Beasley Halpert ID" classname="employeePractice" time="3.612" assertions="0">
+    </testcase>
+  
+    <testcase name="Oscar Martinez ID" classname="employeePractice" time="3.457" assertions="0">
+    </testcase>
+  
+    <testcase name="Angela Martin ID" classname="employeePractice" time="3.410" assertions="0">
+    </testcase>
+  
+    <testcase name="Kevin Malone ID" classname="employeePractice" time="3.504" assertions="0">
+    </testcase>
+  
+    <testcase name="Phylis Lapin Vance" classname="employeePractice" time="3.570" assertions="0">
+    </testcase>
+  
+    <testcase name="Stanley Hudson ID" classname="employeePractice" time="3.437" assertions="0">
+    </testcase>
+  
+    <testcase name="Creed Braton ID" classname="employeePractice" time="50.57" assertions="0">
+    </testcase>
+  
+    <testcase name="Ryan Howard ID" classname="employeePractice" time="8.718" assertions="0">
+      <error message="An error occurred while running .click() command on &lt;li[name=&#34;employee11&#34;]&gt;: undefined; undefined" type="error">NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;employee11&#34;]&gt;: undefined; undefined
+    at ClickElement.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:363:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:60:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</error>
+    
+    </testcase>
+  
+    <testcase name="Delete Employee" classname="employeePractice" time="3.136" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;employee11&#34;]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;429ddf105e790e67c786a32a65fedee0&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

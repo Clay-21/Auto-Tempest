@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="methodPractice"
+    errors="1" failures="0" hostname="" id="" package="methodPractice" skipped="1"
+    tests="3" time="6.421" timestamp="">
+  
+    <testcase name="check addition" classname="methodPractice" time="3.811" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="check subtraction" classname="methodPractice" time="1.645" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="check division" classname="methodPractice" time="0.9650" assertions="2">
+
+    
+
+    
+      <error message="Unknown property: &#34;pause&#34;. Please consult docs at: http://nightwatchjs.org/api." type="error">Error: Unknown property: &#34;pause&#34;. Please consult docs at: http://nightwatchjs.org/api.
+    at Object.get (/usr/local/lib/node_modules/nightwatch/node_modules/chai-nightwatch/lib/chai/core/assertions.js:57:17)
+    at Object.check division (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/methodPractice.js:38:13)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
+    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: Unknown property: &#34;pause&#34;. Please consult docs at: http://nightwatchjs.org/api.[0m
+[0;90m       at Object.check division (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/methodPractice.js:38:13)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="check multiplication" classname="methodPractice">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="weatherManArrays"
+    errors="1" failures="0" hostname="" id="" package="weatherManArrays" skipped="0"
+    tests="2" time="0.5850" timestamp="">
+  
+    <testcase name="Arrays 1" classname="weatherManArrays" time="0.5430" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test 1" classname="weatherManArrays" time="0.04200" assertions="1">
+
+    
+      <error message="myData is not defined" type="error">ReferenceError: myData is not defined
+    at Object.Test 1 (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/weatherManArrays.js:26:13)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
+    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (/usr/local/lib/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  ReferenceError: myData is not defined[0m
+[0;90m       at Object.Test 1 (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/weatherManArrays.js:26:13)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

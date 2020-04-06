@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="8"
+            failures="4"
+            tests="7">
+
+  <testsuite name="yoodlize"
+    errors="8" failures="4" hostname="" id="" package="yoodlize" skipped="0"
+    tests="7" time="159.6" timestamp="">
+  
+    <testcase name="Test 1" classname="yoodlize" time="52.69" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test 2" classname="yoodlize" time="14.17" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test 3" classname="yoodlize" time="14.55" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Test 4" classname="yoodlize" time="19.83" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@xpath2]&gt;[0m contains text [0;33m&#39;partyWeddingEquipmentSeeAll&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;partyWeddingEquipmentSeeAll&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5161ms)[0m">    at Object.Test 4 (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/yoodlize.js:39:17)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Test 5" classname="yoodlize" time="19.45" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@xpath2]&gt;[0m contains text [0;33m&#39;Tools&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Tools&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5166ms)[0m">    at Object.Test 5 (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/yoodlize.js:47:17)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Test 6" classname="yoodlize" time="19.44" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@xpath2]&gt;[0m contains text [0;33m&#39;Clothing&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Clothing&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5301ms)[0m">    at Object.Test 6 (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/yoodlize.js:55:17)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Test 7" classname="yoodlize" time="19.52" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@xpath2]&gt;[0m contains text [0;33m&#39;Home &amp; Kitchen&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Home &amp; Kitchen&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5166ms)[0m">    at Object.Test 7 (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/yoodlize.js:63:17)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;partyWeddingEquipmentSeeAll&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@xpath2]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;toolsSeeAll&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@xpath2]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;clothingSeeAll&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@xpath2]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;homeKitchenSeeAll&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@xpath2]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;bed91e56ad19f5dd68d4b28c8be5f13c&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

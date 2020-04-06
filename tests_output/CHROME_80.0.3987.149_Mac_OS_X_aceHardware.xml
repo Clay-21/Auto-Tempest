@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="aceHardware"
+    errors="1" failures="1" hostname="" id="" package="aceHardware" skipped="0"
+    tests="1" time="17.46" timestamp="">
+  
+    <testcase name="Searching ACE" classname="aceHardware" time="17.46" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element [0;33m&lt;.mz-pagetitle&gt;[0m contains text [0;33m&#39;Power Tools&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Power Tools&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;Power Tools&#39;&#34;[0m [0;90m(5198ms)[0m">    at Object.Searching ACE (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/aceHardware.js:66:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+      <failure message="    at Object.Searching ACE (/Users/clayorton/Desktop/DevMountain/myPracticeAutomation/tests/aceHardware.js:66:32)">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+      <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;.mz-pagetitle&gt;[0m contains text [0;33m&#39;Power Tools&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;Power Tools&#39;&#34;[0m but got: [0;31m&#34;does not contain &#39;Power Tools&#39;&#34;[0m [0;90m(5198ms)[0m" type="error">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TimeoutError: An error occurred while running .setValue() command on &lt;.mz-searchbox-input&gt;:   (Session info: chrome=80.0.3987.149),  (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Mac OS X 10.15.3 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=80.0.3987.149)&#34;,&#34;  (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Mac OS X 10.15.3 x86_64)&#34;]},&#34;errorStatus&#34;:60,&#34;error&#34;:&#34;element not interactable&#34;,&#34;httpStatusCode&#34;:200}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
